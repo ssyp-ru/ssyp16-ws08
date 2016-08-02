@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/CIRCUIT/simulation/qsim
+vCircuit
+Z1 !s110 1469532848
+!i10b 1
+!s100 PT4Z1T@gRS0`mjiHQmPm_1
+INAFcUJGG3hzNWbBMgkXM=2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469532846
+8Circuit.vo
+FCircuit.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1469532847.000000
+!s107 Circuit.vo|
+!s90 -work|work|Circuit.vo|
+!i113 1
+Z4 o-work work
+n@circuit
+vCircuit_vlg_vec_tst
+R1
+!i10b 1
+!s100 `4_dAA;1ze;oSCCiO4Si23
+IcaJVhbMAOTaP5S[3RLH>B0
+R2
+R0
+w1469532844
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1469532848.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+n@circuit_vlg_vec_tst

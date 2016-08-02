@@ -1,0 +1,10 @@
+|test_tb
+
+
+|test_tb|test:DUT
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+A => F.IN1
+B => F.IN0
+C => F.IN1
+
+

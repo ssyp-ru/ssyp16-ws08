@@ -1,0 +1,10 @@
+module memory_block(output [3:0]OUT, input [3:0]IN, input C);
+
+wire o0,o1,o2,o3;
+
+memory m0(.D(IN[0]),.C(C),.Q(OUT[0]),._Q(o0));
+memory m1(.D(IN[1]),.C(C),.Q(OUT[1]),._Q(o0));
+memory m2(.D(IN[2]),.C(C),.Q(OUT[2]),._Q(o0));
+memory m3(.D(IN[3]),.C(C),.Q(OUT[3]),._Q(o0));
+
+endmodule

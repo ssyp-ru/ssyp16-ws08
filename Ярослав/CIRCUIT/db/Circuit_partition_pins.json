@@ -1,0 +1,269 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ADD_OFFSET",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMORY_ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[15]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

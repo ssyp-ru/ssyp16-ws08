@@ -1,0 +1,13 @@
+module one(output b[0..2],input a[0..2]);
+always
+begin
+if ((0==a[0..2]) or (1==a[0..2]) or (2==a[0..2]) or (3==a[0..2]))
+begin
+b=a+1;
+end;
+if ((4==a[0..2]) or (5==a[0..2]) or (6==a[0..2]) or (7==a[0..2]))
+begin
+b=a-2;
+end;
+end;
+endmodule

@@ -1,0 +1,5 @@
+module UNLIMITED_REGISTER (input clk, input load_en, input [3:0] d, input [1:0] dest_sel, input [1:0] a_sel, input [1:0] b_sel, output reg [3:0] A, output reg [3:0] B);
+
+
+
+endmodule

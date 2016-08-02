@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/simulation/qsim
+vvseochenploxo
+Z1 !s110 1469539604
+!i10b 1
+!s100 QOWd4aPO@[F3Rb0gNNR5B1
+I0hCCGdAO083Ab4NmEEgbH2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469539596
+8vseochenploxo.vo
+Fvseochenploxo.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1469539602.000000
+!s107 vseochenploxo.vo|
+!s90 -work|work|vseochenploxo.vo|
+!i113 1
+Z4 o-work work
+vvseochenploxo_vlg_vec_tst
+R1
+!i10b 1
+!s100 0GZfm_m5PN`<zG3X9N@2;1
+I9Z18@MPnFBih?4mf=`i0G3
+R2
+R0
+w1469539591
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1469539604.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

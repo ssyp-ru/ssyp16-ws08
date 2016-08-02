@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/new_test/simulation/modelsim
+vselect
+!s110 1468915038
+!i10b 1
+!s100 cJLKLT`kTUJk7ZKOL<_0m1
+IOD5zh@G;dI^=Ie1=48e8o3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1468914855
+8C:/quartus_projects/new_test/select.v
+FC:/quartus_projects/new_test/select.v
+L0 22
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1468915038.000000
+!s107 C:/quartus_projects/new_test/select.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_projects/new_test|C:/quartus_projects/new_test/select.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/quartus_projects/new_test

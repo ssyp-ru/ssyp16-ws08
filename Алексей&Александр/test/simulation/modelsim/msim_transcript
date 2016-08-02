@@ -1,0 +1,45 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_projects/test {C:/quartus_projects/test/test.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:26:16 on Jul 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_projects/test" C:/quartus_projects/test/test.v 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 02:26:16 on Jul 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus_projects/test {C:/quartus_projects/test/test_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:26:16 on Jul 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_projects/test" C:/quartus_projects/test/test_tb.v 
+# -- Compiling module test_tb
+# 
+# Top level modules:
+# 	test_tb
+# End time: 02:26:16 on Jul 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 02:26:30 on Jul 19,2016
+# Loading work.test_tb
+# Loading work.test
+add wave -position insertpoint  \
+sim:/test_tb/clk \
+sim:/test_tb/counter \
+sim:/test_tb/f
+run
+# End time: 02:29:10 on Jul 19,2016, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 0

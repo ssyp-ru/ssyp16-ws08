@@ -1,0 +1,8 @@
+module A4(input C,input AC,input [3:0] SH1,input [3:0] SH2,output [3:0] SHO);
+wire O1,O2,O3,O4;
+fa HA1(SH1[0],SH2[0],C,O1,SHO[0]);
+fa FA1(SH1[1],SH2[1],O1,O2,SHO[1]);
+fa FA2(SH1[2],SH2[2],O2,O3,SHO[2]);
+fa FA3(SH1[3],SH2[3],O3,O4,SHO[3]);
+
+endmodule

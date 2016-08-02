@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_project/merge/simulation/qsim
+vMB
+!s110 1469455323
+!i10b 1
+!s100 cZn2G]B9@3HhTfmT]V12_1
+IJo6ChzI>zO4>Cg^Q0KBc]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469455321
+8MB.vo
+FMB.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1469455323.000000
+!s107 MB.vo|
+!s90 -work|work|MB.vo|
+!i113 1
+Z3 o-work work
+n@m@b
+vMB_vlg_vec_tst
+!s110 1469455324
+!i10b 1
+!s100 mRP=b=OkfX?n?oAaCejA23
+ITehl:^KhnYG9GVAheLOW_3
+R1
+R0
+w1469455318
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1469455324.000000
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R3
+n@m@b_vlg_vec_tst

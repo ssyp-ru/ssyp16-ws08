@@ -1,0 +1,4 @@
+module RO_SH_GOOD (input [3:0] B, input [1:0] op_sel, output [3:0] F);
+
+
+endmodule

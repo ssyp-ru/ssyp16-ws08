@@ -1,0 +1,9 @@
+module select(output b[2:0], input a[2:0]);
+
+always 
+if(a<4)
+	b = a+1;
+else
+	b = a-2;
+
+endmodule

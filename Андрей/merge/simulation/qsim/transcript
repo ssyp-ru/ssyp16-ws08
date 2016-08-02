@@ -1,0 +1,111 @@
+# do MB.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 07:02:03 on Jul 25,2016
+# vlog -work work MB.vo 
+# -- Compiling module MB
+# 
+# Top level modules:
+# 	MB
+# End time: 07:02:03 on Jul 25,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 07:02:04 on Jul 25,2016
+# vlog -work work Waveform3.vwf.vt 
+# -- Compiling module MB_vlg_vec_tst
+# 
+# Top level modules:
+# 	MB_vlg_vec_tst
+# End time: 07:02:04 on Jul 25,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MB_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 07:02:04 on Jul 25,2016
+# Loading work.MB_vlg_vec_tst
+# Loading work.MB
+# Loading altera_ver.dffeas
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m10k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_lnsim_ver.altera_pll_reconfig_tasks
+# Loading altera_lnsim_ver.generic_device_pll
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) MB.vo(2148): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /MB_vlg_vec_tst/i1/\inst11|clk_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  File: nofile
+# ** Warning: (vsim-3722) MB.vo(2148): [TFMPC] - Missing connection for port 'pllen'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /MB_vlg_vec_tst/i1/\inst11|clk_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) MB.vo(2174): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /MB_vlg_vec_tst/i1/\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
+# ** Warning: (vsim-3722) MB.vo(2174): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /MB_vlg_vec_tst/i1/\inst11|clk_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /MB_vlg_vec_tst/i1/\inst11|clk_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected>/<protected> File: nofile
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 19672 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 416 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 832 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = MB_vlg_vec_tst.i1.\inst11|clk_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 1248 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# ** Note: $finish    : Waveform3.vwf.vt(45)
+#    Time: 1 us  Iteration: 0  Instance: /MB_vlg_vec_tst
+# End time: 07:02:52 on Jul 25,2016, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 10

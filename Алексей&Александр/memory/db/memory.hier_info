@@ -1,0 +1,380 @@
+|fullram
+out[0] <= bitslise:sl1.out
+out[1] <= bitslise:sl2.out
+out[2] <= bitslise:sl3.out
+out[3] <= bitslise:sl4.out
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+rw => rw.IN4
+wordselect[0] => wordselect[0].IN4
+wordselect[1] => wordselect[1].IN4
+wordselect[2] => wordselect[2].IN4
+wordselect[3] => wordselect[3].IN4
+
+
+|fullram|bitslise:sl1
+out <= onebitmemory:m2.q1
+rw => d1.IN0
+rw => d2.IN0
+data => d1.IN1
+data => d2.IN1
+wordselect0 => wordselect0.IN1
+wordselect1 => wordselect1.IN1
+wordselect2 => wordselect2.IN1
+wordselect3 => wordselect3.IN1
+
+
+|fullram|bitslise:sl1|ram:r1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl1|ram:r1|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl1|ram:r2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl1|ram:r2|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl1|ram:r3
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl1|ram:r3|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl1|ram:r4
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl1|ram:r4|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl1|onebitmemory:m2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl2
+out <= onebitmemory:m2.q1
+rw => d1.IN0
+rw => d2.IN0
+data => d1.IN1
+data => d2.IN1
+wordselect0 => wordselect0.IN1
+wordselect1 => wordselect1.IN1
+wordselect2 => wordselect2.IN1
+wordselect3 => wordselect3.IN1
+
+
+|fullram|bitslise:sl2|ram:r1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl2|ram:r1|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl2|ram:r2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl2|ram:r2|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl2|ram:r3
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl2|ram:r3|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl2|ram:r4
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl2|ram:r4|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl2|onebitmemory:m2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl3
+out <= onebitmemory:m2.q1
+rw => d1.IN0
+rw => d2.IN0
+data => d1.IN1
+data => d2.IN1
+wordselect0 => wordselect0.IN1
+wordselect1 => wordselect1.IN1
+wordselect2 => wordselect2.IN1
+wordselect3 => wordselect3.IN1
+
+
+|fullram|bitslise:sl3|ram:r1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl3|ram:r1|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl3|ram:r2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl3|ram:r2|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl3|ram:r3
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl3|ram:r3|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl3|ram:r4
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl3|ram:r4|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl3|onebitmemory:m2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl4
+out <= onebitmemory:m2.q1
+rw => d1.IN0
+rw => d2.IN0
+data => d1.IN1
+data => d2.IN1
+wordselect0 => wordselect0.IN1
+wordselect1 => wordselect1.IN1
+wordselect2 => wordselect2.IN1
+wordselect3 => wordselect3.IN1
+
+
+|fullram|bitslise:sl4|ram:r1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl4|ram:r1|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl4|ram:r2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl4|ram:r2|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl4|ram:r3
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl4|ram:r3|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl4|ram:r4
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= q2.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+s => comb.IN0
+c => comb.IN1
+c => comb.IN1
+c => q1.IN1
+c => q2.IN1
+
+
+|fullram|bitslise:sl4|ram:r4|onebitmemory:m1
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+
+|fullram|bitslise:sl4|onebitmemory:m2
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN1
+s => comb.IN0
+
+

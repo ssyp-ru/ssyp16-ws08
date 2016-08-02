@@ -1,0 +1,4 @@
+module digit(output[6:0] DISPLAY, input[3:0] NUM);
+
+
+endmodule

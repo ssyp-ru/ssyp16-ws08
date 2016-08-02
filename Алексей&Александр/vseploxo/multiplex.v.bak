@@ -1,0 +1,13 @@
+module multiplex (output [3:0]send, input [1:0]sel, input [3:0]s0, input [3:0]s1, input [3:0]s2, input [3:0]s3);
+always 
+begin
+if ((sel[1]==0) and (sel[0]==0))
+send=s0;
+if ((sel[1]==0) and (sel[0]==1))
+send=s1;
+if ((sel[1]==1) and (sel[0]==0))
+send=s2;
+if ((sel[1]==1) and (sel[0]==1))
+send=s3;
+end
+endmodule

@@ -1,0 +1,42 @@
+/*module controlunit (output [5:0],input [15:0] op_code, input clk);
+
+always@()
+case ([15:11]op_code)
+1://nop
+a_sel = [10:9];
+dest_sel= [8:7];
+const_in = [6:7];
+const_sel =
+dsts_in =
+op_sel =
+data_in =
+data_sel =
+b_sel =
+load_en =
+2://mova
+3://add
+4://sub
+5://and
+begin
+
+end
+6://or
+7://xor
+8://not
+9://adi
+10://sbi
+11://ani
+12://ori
+13://xri
+14://movb
+15://lsr
+16://lsl
+17://ld
+18://st
+19://jmr
+20://slt
+21://bz
+22://bzn
+23://jmp
+
+/*

@@ -1,0 +1,224 @@
+|nachalomazahizma
+p[0] << calculator:cal.g
+p[1] << calculator:cal.g
+p[2] << calculator:cal.g
+p[3] << calculator:cal.g
+n[0] => n[0].IN1
+n[1] => n[1].IN1
+n[2] => n[2].IN1
+n[3] => n[3].IN1
+m[0] => m[0].IN1
+m[1] => m[1].IN1
+m[2] => m[2].IN1
+m[3] => m[3].IN1
+
+
+|nachalomazahizma|dopcode:dc
+z[0] <= calculator:dcp.g
+z[1] <= calculator:dcp.g
+z[2] <= calculator:dcp.g
+z[3] <= calculator:dcp.g
+x[0] => v[0].IN1
+x[1] => v[1].IN1
+x[2] => v[2].IN1
+x[3] => v[3].IN1
+
+
+|nachalomazahizma|dopcode:dc|calculator:dcp
+g[0] <= one:FA1.s
+g[1] <= one:FA2.s
+g[2] <= one:FA3.s
+g[3] <= one:FA4.s
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+f[0] => f[0].IN1
+f[1] => f[1].IN1
+f[2] => f[2].IN1
+f[3] => f[3].IN1
+
+
+|nachalomazahizma|dopcode:dc|calculator:dcp|one:FA1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|dopcode:dc|calculator:dcp|one:FA2
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|dopcode:dc|calculator:dcp|one:FA3
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|dopcode:dc|calculator:dcp|one:FA4
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|calculator:cal
+g[0] <= one:FA1.s
+g[1] <= one:FA2.s
+g[2] <= one:FA3.s
+g[3] <= one:FA4.s
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+f[0] => f[0].IN1
+f[1] => f[1].IN1
+f[2] => f[2].IN1
+f[3] => f[3].IN1
+
+
+|nachalomazahizma|calculator:cal|one:FA1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|calculator:cal|one:FA2
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|calculator:cal|one:FA3
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+
+|nachalomazahizma|calculator:cal|one:FA4
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1.DB_MAX_OUTPUT_PORT_TYPE
+a => s.IN0
+a => s.IN0
+a => c1.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => c1.IN0
+b => s.IN1
+b => s.IN1
+c => s.IN1
+c => s.IN1
+c => c1.IN1
+c => c1.IN1
+c => s.IN1
+c => s.IN1
+
+

@@ -1,0 +1,4 @@
+module control_unit (input [1:0] op_code);
+
+
+endmodule

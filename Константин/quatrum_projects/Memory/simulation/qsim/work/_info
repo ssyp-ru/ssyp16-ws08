@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quatrum_projects/Memory/simulation/qsim
+vbit_slice
+Z1 !s110 1469182241
+!i10b 1
+!s100 2QAMZKOK?4lW^UH1_C@no1
+IE2WS`4S6HoIO8=6FD0mMe0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469182240
+Z3 8Memory.vo
+Z4 FMemory.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1469182241.000000
+Z8 !s107 Memory.vo|
+Z9 !s90 -work|work|Memory.vo|
+!i113 1
+Z10 o-work work
+vbit_slice_vlg_vec_tst
+R1
+!i10b 1
+!s100 M<VFBj9n8Q5]S=iUZhWfW1
+Ie@7Vj<4c>GEoOzCgo2Ql<0
+R2
+R0
+w1469182239
+Z11 8Waveform.vwf.vt
+Z12 FWaveform.vwf.vt
+Z13 L0 30
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+vRAM
+Z16 !s110 1469182802
+!i10b 1
+!s100 f_8Jf@hDU=k_iDQJg3zCI2
+IC4mhcoE3ZgE8LGUc?C2En1
+R2
+R0
+w1469182801
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1469182802.000000
+R8
+R9
+!i113 1
+R10
+n@r@a@m
+vram_cell
+Z18 !s110 1469180272
+!i10b 1
+!s100 C_MkAXZC<gc9WGEzzeg5:1
+I00:=YJRfh7ZaQYbPGgD[H3
+R2
+R0
+w1469180271
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1469180272.000000
+R8
+R9
+!i113 1
+R10
+vram_cell_vlg_vec_tst
+R18
+!i10b 1
+!s100 ?RXhQ4Qb[AJz`Gbe]MIo20
+IBPQhHDRdzYDncYRGigRE^1
+R2
+R0
+w1469180270
+R11
+R12
+R13
+R6
+r1
+!s85 0
+31
+R19
+R14
+R15
+!i113 1
+R10
+vRAM_vlg_vec_tst
+R16
+!i10b 1
+!s100 o@MJEHZD;5iOXXdg[Fdac3
+IS]8SiN>9jVU1h;VhljK2d3
+R2
+R0
+w1469182800
+R11
+R12
+R13
+R6
+r1
+!s85 0
+31
+R17
+R14
+R15
+!i113 1
+R10
+n@r@a@m_vlg_vec_tst
+vsr_latch
+Z20 !s110 1469179658
+!i10b 1
+!s100 [Vc^0kjLk=FiMDCU_Z2z_3
+IcOCnO=Q_Gk<NJfjTJ2^FH0
+R2
+R0
+w1469179657
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z21 !s108 1469179658.000000
+R8
+R9
+!i113 1
+R10
+vsr_latch_vlg_vec_tst
+R20
+!i10b 1
+!s100 4f0QnZoCiHT`S0o]bJocn1
+IU``m4I[3N<fYam;FcdS2J3
+R2
+R0
+w1469179656
+R11
+R12
+R13
+R6
+r1
+!s85 0
+31
+R21
+R14
+R15
+!i113 1
+R10

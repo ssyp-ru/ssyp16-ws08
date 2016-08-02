@@ -1,0 +1,8 @@
+module register4bit (output reg [3:0]q,input [3:0]d ,input clk);
+
+ended e0(.q1(q[0]), .q2(), .d(d[0]), .c(clk) );
+ended e1(.q1(q[1]), .q2(), .d(d[1]), .c(clk) );
+ended e2(.q1(q[2]), .q2(), .d(d[2]), .c(clk) );
+ended e3(.q1(q[3]), .q2(), .d(d[3]), .c(clk) );
+
+endmodule

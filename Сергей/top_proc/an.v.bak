@@ -1,0 +1,4 @@
+module an (input A,input B,output C);
+
+nand(C,A,B);
+endmodule

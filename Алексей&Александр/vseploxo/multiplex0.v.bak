@@ -1,0 +1,11 @@
+module multiplex0 (output reg [3:0]send, input [1:0]sel, input s0, input s1 ,input s2 , input s3);
+always@(sel or s0 or s1 or s2 or s3)
+begin
+case (sel)
+	'b00:send=0; 
+	'b01:send=s3;
+	'b10:send=s3;
+ 	'b11:send=s1;
+	endcase
+end
+endmodule

@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_project/20.07.16/simulation/qsim
+vdecoder
+Z1 !s110 1468997787
+!i10b 1
+!s100 X]zNIJRN]:XHME]igPa750
+IlP[dPRfI3IYoTlMeh8]][3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1468997785
+Z3 8234.vo
+Z4 F234.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1468997787.000000
+Z8 !s107 234.vo|
+Z9 !s90 -work|work|234.vo|
+!i113 1
+Z10 o-work work
+vdecoder_vlg_vec_tst
+R1
+!i10b 1
+!s100 5=fFP9f`1]ml3Ia6Qbm9=3
+Il?F4P3Wjh@]^4=oZC7;Dd1
+R2
+R0
+w1468997784
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+vdoublememory
+Z12 !s110 1468992988
+!i10b 1
+!s100 aT1icVR:^1QHEfQaQB38W1
+IUaTP7J1BFKc@lFjf[f:<V2
+R2
+R0
+w1468992987
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1468992988.000000
+R8
+R9
+!i113 1
+R10
+vdoublememory_vlg_vec_tst
+R12
+!i10b 1
+!s100 NZnA6WkBTIAGIS7JR>8301
+IKXi;RAd4ZgYQmPQ>IU@N31
+R2
+R0
+w1468992985
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R13
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+vregister4
+Z14 !s110 1468993539
+!i10b 1
+!s100 GVjBoj^TNAB]kN;KH<acd1
+IPC^DKGjj:9RLbY;gOiYL_3
+R2
+R0
+w1468993538
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1468993539.000000
+R8
+R9
+!i113 1
+R10
+vregister4_vlg_vec_tst
+R14
+!i10b 1
+!s100 i:_zTac]>1fkMd=ULn8lX1
+I11cA^F7>Q1X2VHN?bn4FF0
+R2
+R0
+w1468993536
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+vUNLIMITED_REGISTER
+Z16 !s110 1468998033
+!i10b 1
+!s100 0KJBG3GA[G9ZeWb`Nl;Oo2
+I=dh7W;c_=hE1kU?Jk8QUM0
+R2
+R0
+w1468998031
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1468998033.000000
+R8
+R9
+!i113 1
+R10
+n@u@n@l@i@m@i@t@e@d_@r@e@g@i@s@t@e@r
+vUNLIMITED_REGISTER_vlg_vec_tst
+R16
+!i10b 1
+!s100 P:i^bOhTaBCJMgg1jEOmH3
+IPRe9:M^aBj2N[;BZ^RW3b3
+R2
+R0
+w1468998030
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+n@u@n@l@i@m@i@t@e@d_@r@e@g@i@s@t@e@r_vlg_vec_tst

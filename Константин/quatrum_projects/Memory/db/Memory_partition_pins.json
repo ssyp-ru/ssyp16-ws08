@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "word_sel[3]",
+					"strict" : false
+				},
+				{
+					"name" : "word_sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "word_sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "word_sel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rw_mode",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+module decoder (input [1:0] a, output reg [3:0] q);
+always @(a) begin
+q = 0;
+q[a] = 1;
+end
+
+endmodule

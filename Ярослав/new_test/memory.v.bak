@@ -1,0 +1,12 @@
+module memory(output Q, output _Q, input D, input C);
+	wire w1,w2,w3,w4,w5;
+	
+	~and(w2,D,C);
+	not(w1,D);
+	~and(w3,w1,C);
+	~and(w5,w2,w4);
+	~and(w4,w3,w5);
+	assign Q=w5;
+	assign _Q=w4;
+	
+endmodule

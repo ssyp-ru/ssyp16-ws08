@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/vseploxo/simulation/qsim
+vdatapath
+Z1 !s110 1469172315
+!i10b 1
+!s100 WnJ?12]J15mU_LjzG@VIk1
+I@afM_Wga<i?P4S?KI02[01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469172313
+Z3 8vseploxo.vo
+Z4 Fvseploxo.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1469172315.000000
+Z8 !s107 vseploxo.vo|
+Z9 !s90 -work|work|vseploxo.vo|
+!i113 1
+Z10 o-work work
+vdatapath_vlg_vec_tst
+R1
+!i10b 1
+!s100 kQ01=]OhcK<FjCTVk7@nb3
+Ii:?73ES1Pj5EO4S3oIDQ=1
+R2
+R0
+w1469172310
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+vlu
+Z12 !s110 1469177610
+!i10b 1
+!s100 o865hM;4l=54d2QIcK:P62
+I`4NkhiJi4BBB70`3YTh;_1
+R2
+R0
+w1469177603
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1469177610.000000
+R8
+R9
+!i113 1
+R10
+vlu_vlg_vec_tst
+R12
+!i10b 1
+!s100 g>3Jl^oQJEmOVC6e22@dN1
+I1WPDcIj1H[=2:Q2W6c?a51
+R2
+R0
+w1469177600
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R13
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10

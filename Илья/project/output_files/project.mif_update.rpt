@@ -1,0 +1,75 @@
+MIF/HEX Update report for project
+Wed Jul 27 18:14:08 2016
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Wed Jul 27 18:14:08 2016 ;
+; Revision Name         ; project                               ;
+; Top-level Entity Name ; project                               ;
+; Family                ; Cyclone V                             ;
+; Device                ; 5CSEMA4U23C6                          ;
++-----------------------+---------------------------------------+
+
+
++-------------------------------------+
+; MIF/HEX Update Processed Files      ;
++-------------------------------------+
+; File Name                           ;
++-------------------------------------+
+; C:/quartus_projects/project/ram.mif ;
+; C:/quartus_projects/project/rom.mif ;
++-------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+    Info: Processing started: Wed Jul 27 18:13:59 2016
+Info: Command: quartus_cdb project -c project --update_mif
+Critical Warning (127004): Memory depth (36000) in the design file differs from memory depth (65546) in the Memory Initialization File "C:/quartus_projects/project/rom.mif" -- truncated remaining initial content value to fit RAM
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File C:/quartus_projects/project/ram.mif File: C:/quartus_projects/project/ram.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/quartus_projects/project/rom.mif File: C:/quartus_projects/project/rom.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 903 megabytes
+    Info: Processing ended: Wed Jul 27 18:14:08 2016
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:08
+
+

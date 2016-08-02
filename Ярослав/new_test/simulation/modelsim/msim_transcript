@@ -1,0 +1,35 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do new_test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_projects/new_test {C:/quartus_projects/new_test/select.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:57:18 on Jul 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_projects/new_test" C:/quartus_projects/new_test/select.v 
+# -- Compiling module select
+# 
+# Top level modules:
+# 	select
+# End time: 13:57:18 on Jul 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.select
+# vsim work.select 
+# Start time: 13:57:25 on Jul 19,2016
+# Loading work.select
+add wave -position insertpoint  \
+sim:/select/b \
+sim:/select/a
+run
+# Break key hit
+# Break in Module select at C:/quartus_projects/new_test/select.v line 28
+# End time: 14:47:44 on Jul 19,2016, Elapsed time: 0:50:19
+# Errors: 0, Warnings: 0

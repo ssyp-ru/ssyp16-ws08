@@ -1,0 +1,14 @@
+module fileregister(output [3:0]a, output [3:0]b,input s0, input s1, input s2 , input s3, input clk , input [3:0]d ,input [1:0]a_sel , input [3:0]b_sel, input [1:0]dest_sel , input load_en);
+
+wire (l0,l1,l2,l3)
+
+decoder dec( .s0(s0), .s1(s1), .s2(s2), .s3(s3), .dest_sel(dest_sel));
+register4bitend r0(.q(l0), .d(d[0]), .clk(clk), .load_en(s0 & load_en));
+register4bitend r1(.q(l1), .d(d[1]), .clk(clk), .load_en(s1 & load_en));
+register4bitend r2(.q(l2), .d(d[2]), .clk(clk), .load_en(s2 & load_en));
+register4bitend r3(.q(l3), .d(d[3]), .clk(clk), .load_en(s3 & load_en));
+multiplex m1(.send(a), .sel(a_sel), .s0(l0), .s1(l1), .s2(l2), .s3(l3));
+multiplex m1(.send(b), .sel(b_sel), .s0(l0), .s1(l1), .s2(l2), .s3(l3));
+
+endmodule
+

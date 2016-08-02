@@ -1,0 +1,9 @@
+module ALUSHIFTER_16(input [3:0] sel,input [15:0] A,input [15:0] B,output [15:0] R);
+wire [15:0] AluR,roshR;
+wire Z1,Z2,Z3,Z4;
+ALU_16 al16(sel[2:0] ,A,B,AluR,Z1,Z2,Z3,Z4);
+RO_SH_16 rosh16(1'b0,1'b0,sel[1:0],A,roshR);
+
+multiplexor2_16 m(sel[3],AluR,roshR,R);
+
+endmodule

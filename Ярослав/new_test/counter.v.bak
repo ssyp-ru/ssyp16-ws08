@@ -1,0 +1,17 @@
+module counter(output reg[2:0] COUNT, input C );
+
+wire w1,w2,w3,w4,w5,w6,w7;
+
+memory m0(.C(C),.Q(w1),.D(w2));
+not(w2,w1);
+xor(w3,w1,w4);
+memory m1(.C(C),.D(w3),.Q(w4));
+and(w5,w1,w4);
+xor(w6,w5,w7);
+memory m2(.D(w6),.C(C),.Q(w7));
+
+assign COUNT[0]=w1;
+assign COUNT[1]=w4;
+assign COUNT[2]=w7;	
+
+endmodule

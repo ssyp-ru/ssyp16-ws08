@@ -1,0 +1,2 @@
+module shlror(output [3:0]f, input [3:0]b, input [1:0]op_sel);
+

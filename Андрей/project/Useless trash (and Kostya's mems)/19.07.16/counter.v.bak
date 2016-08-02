@@ -1,0 +1,39 @@
+module counter (input c, output q1, output q2, output q3);
+wire 
+
+wire d,e1,e2,e3,e4,e5,e6,w;
+not(d,q3);
+nand(e1,d,~c);
+nand(e2,~d,~c);
+nand(e3,e4,e1);
+nand(e4,e3,e2);
+nand(e5,c,e3);
+nand(e6,c,e4);
+nand(q3,w,e5);
+nand(w,q3,e6);
+
+wire d1,w1,r1,r2,r3,r4,r5,r6;
+xor(d1,q3,q2);
+nand(r1,d1,~c);
+nand(r2,~d1,~c);
+nand(r3,r4,r1);
+nand(r4,r3,r2);
+nand(r5,c,r3);
+nand(r6,c,r4);
+nand(q2,w1,r5);
+nand(w1,q2,r6);
+
+wire d2,w2,t1,t2,t3,t4,t5,t6,op;
+and(op,q2,q3);
+xor(d2,op,q1);
+nand(t1,d2,~c);
+nand(t2,~d2,~c);
+nand(t3,t4,t1);
+nand(t4,t3,t2);
+nand(t5,c,t3);
+nand(t6,c,t4);
+nand(q1,w2,t5);
+nand(w2,q1,t6);
+
+
+endmodule

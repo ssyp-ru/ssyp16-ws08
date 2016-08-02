@@ -1,0 +1,798 @@
+$comment
+	File created using the following command:
+		vcd file Memory.msim.vcd -direction
+$end
+$date
+	Fri Jul 22 16:20:03 2016
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module RAM_vlg_vec_tst $end
+$var reg 4 ! DATA [3:0] $end
+$var reg 1 " rw_mode $end
+$var reg 4 # word_sel [3:0] $end
+$var wire 1 $ OUT [3] $end
+$var wire 1 % OUT [2] $end
+$var wire 1 & OUT [1] $end
+$var wire 1 ' OUT [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . OUT[0]~output_o $end
+$var wire 1 / OUT[1]~output_o $end
+$var wire 1 0 OUT[2]~output_o $end
+$var wire 1 1 OUT[3]~output_o $end
+$var wire 1 2 word_sel[3]~input_o $end
+$var wire 1 3 DATA[0]~input_o $end
+$var wire 1 4 rw_mode~input_o $end
+$var wire 1 5 b_slice0|r_cell3|sr|comb~0_combout $end
+$var wire 1 6 word_sel[0]~input_o $end
+$var wire 1 7 word_sel[1]~input_o $end
+$var wire 1 8 word_sel[2]~input_o $end
+$var wire 1 9 b_slice0|control_sr_latch|comb~0_combout $end
+$var wire 1 : b_slice0|r_cell0|sr|comb~0_combout $end
+$var wire 1 ; b_slice0|r_cell1|sr|comb~0_combout $end
+$var wire 1 < b_slice0|r_cell2|sr|comb~0_combout $end
+$var wire 1 = b_slice0|control_sr_latch|comb~1_combout $end
+$var wire 1 > b_slice0|control_sr_latch|comb~2_combout $end
+$var wire 1 ? DATA[1]~input_o $end
+$var wire 1 @ b_slice1|r_cell3|sr|comb~0_combout $end
+$var wire 1 A b_slice1|control_sr_latch|comb~0_combout $end
+$var wire 1 B b_slice1|r_cell0|sr|comb~0_combout $end
+$var wire 1 C b_slice1|r_cell1|sr|comb~0_combout $end
+$var wire 1 D b_slice1|r_cell2|sr|comb~0_combout $end
+$var wire 1 E b_slice1|control_sr_latch|comb~1_combout $end
+$var wire 1 F b_slice1|control_sr_latch|comb~2_combout $end
+$var wire 1 G DATA[2]~input_o $end
+$var wire 1 H b_slice2|r_cell3|sr|comb~0_combout $end
+$var wire 1 I b_slice2|control_sr_latch|comb~0_combout $end
+$var wire 1 J b_slice2|r_cell0|sr|comb~0_combout $end
+$var wire 1 K b_slice2|r_cell1|sr|comb~0_combout $end
+$var wire 1 L b_slice2|r_cell2|sr|comb~0_combout $end
+$var wire 1 M b_slice2|control_sr_latch|comb~1_combout $end
+$var wire 1 N b_slice2|control_sr_latch|comb~2_combout $end
+$var wire 1 O DATA[3]~input_o $end
+$var wire 1 P b_slice3|r_cell3|sr|comb~0_combout $end
+$var wire 1 Q b_slice3|control_sr_latch|comb~0_combout $end
+$var wire 1 R b_slice3|r_cell0|sr|comb~0_combout $end
+$var wire 1 S b_slice3|r_cell1|sr|comb~0_combout $end
+$var wire 1 T b_slice3|r_cell2|sr|comb~0_combout $end
+$var wire 1 U b_slice3|control_sr_latch|comb~1_combout $end
+$var wire 1 V b_slice3|control_sr_latch|comb~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110 !
+0"
+b100 #
+0'
+0&
+0%
+0$
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+x5
+06
+07
+18
+09
+x:
+x;
+0<
+0=
+1>
+1?
+x@
+0A
+xB
+xC
+0D
+0E
+1F
+1G
+xH
+0I
+xJ
+xK
+0L
+0M
+1N
+1O
+xP
+0Q
+xR
+xS
+0T
+0U
+1V
+$end
+#30000
+1"
+b1100 #
+b1110 #
+b1111 #
+b1010 !
+b1000 !
+b1001 !
+14
+13
+0?
+0G
+16
+17
+12
+1Q
+1P
+0H
+0@
+19
+15
+1S
+0K
+0C
+1;
+1R
+0J
+0B
+1:
+1<
+1T
+1U
+1=
+0>
+0V
+11
+1.
+1'
+1$
+#60000
+0"
+04
+0T
+0S
+0R
+0Q
+0P
+0<
+0;
+0:
+09
+05
+1>
+0=
+1V
+0U
+01
+0.
+0'
+0$
+#90000
+b1011 #
+b1001 #
+1"
+07
+08
+14
+1R
+1Q
+1P
+1:
+19
+15
+1=
+1U
+0V
+0>
+1.
+11
+1$
+1'
+#120000
+b1 !
+b11 !
+b10 !
+b1101 #
+b1111 #
+17
+18
+03
+1?
+0O
+0R
+0Q
+0P
+1D
+1C
+1B
+1A
+1@
+0:
+09
+05
+0U
+0=
+1>
+1V
+1E
+01
+0.
+0F
+0'
+0$
+1/
+1&
+#150000
+b1110 #
+b110 !
+b1110 !
+b1100 !
+b1010 #
+0?
+1G
+1O
+06
+08
+1Q
+1I
+0A
+1S
+1P
+1K
+1H
+0C
+0@
+1F
+0E
+1M
+1U
+0/
+0V
+0N
+0&
+10
+11
+1$
+1%
+#180000
+b10 #
+b1101 !
+b11 #
+b101 !
+b111 !
+13
+1?
+0O
+16
+02
+0Q
+1A
+19
+0U
+0M
+1J
+1:
+0S
+1C
+1;
+1=
+1E
+1M
+1N
+1V
+01
+00
+0N
+0F
+0>
+0%
+0$
+1.
+1/
+10
+1%
+1&
+1'
+#210000
+0"
+b1 #
+b11 !
+b101 #
+b100 #
+04
+0G
+06
+07
+18
+0M
+0I
+0D
+0A
+0=
+09
+1>
+0E
+1N
+00
+0.
+1F
+0'
+0%
+0/
+0&
+#240000
+b1100 #
+b10 !
+b0 !
+1"
+b1000 #
+b1001 #
+03
+0?
+16
+08
+12
+14
+0P
+0J
+0H
+0B
+0:
+1M
+1E
+1=
+0=
+0E
+0M
+#270000
+b1000 !
+b1100 !
+b1 #
+b1101 !
+b1111 !
+0"
+b0 #
+06
+02
+13
+1?
+1G
+1O
+04
+1U
+1M
+1E
+1=
+#300000
+b100 #
+b111 !
+b110 !
+b101 #
+03
+0O
+16
+18
+0U
+0M
+0E
+0=
+#330000
+b10 !
+b0 !
+1"
+b100 #
+14
+06
+0?
+0G
+#360000
+b1100 #
+b1000 #
+b100 !
+b110 !
+0"
+1?
+1G
+08
+12
+04
+1U
+1M
+1E
+1=
+#390000
+b1010 #
+b1011 #
+b11 #
+b10 !
+0G
+16
+17
+02
+0U
+0M
+0K
+0E
+0C
+0=
+0;
+#420000
+b11 !
+b111 #
+b101 #
+b111 !
+07
+18
+13
+1G
+#450000
+b101 !
+1"
+b1101 #
+b1001 #
+14
+08
+12
+0?
+1I
+1H
+19
+15
+1J
+1:
+1=
+1M
+0N
+0>
+1.
+10
+1%
+1'
+#480000
+b100 !
+b0 !
+0"
+b1 #
+b101 #
+04
+18
+02
+03
+0G
+0J
+0I
+0:
+09
+0M
+0=
+1>
+1N
+00
+0.
+0'
+0%
+#510000
+b1101 #
+b1001 #
+08
+12
+0H
+05
+#540000
+b1000 !
+b1000 #
+b1100 !
+1"
+b0 #
+b100 #
+06
+18
+02
+1G
+1O
+14
+1T
+1Q
+1L
+1I
+1M
+1U
+0V
+0N
+10
+11
+1$
+1%
+#570000
+0"
+b1100 #
+b1000 #
+04
+08
+12
+1V
+0Q
+1N
+0I
+1E
+1=
+00
+01
+0$
+0%
+#600000
+b1110 !
+b1001 #
+b1 #
+16
+02
+1?
+0U
+0M
+0E
+0=
+#630000
+b11 #
+b10 #
+06
+17
+#660000
+b110 !
+0O
+#690000
+b100 !
+b1010 #
+b1000 #
+b1100 !
+07
+12
+0?
+1O
+1U
+1M
+1E
+1=
+#720000
+b1101 !
+b1001 !
+b1100 #
+b100 #
+b110 #
+b1 !
+17
+18
+02
+13
+0G
+0O
+0T
+0L
+0U
+0M
+0E
+0=
+#750000
+1"
+b111 #
+b11 !
+b111 !
+14
+1?
+1G
+16
+1J
+1I
+1B
+1A
+1:
+19
+1L
+1K
+1D
+1C
+1<
+1;
+1=
+1E
+1M
+0N
+0F
+0>
+1.
+1/
+10
+1%
+1&
+1'
+#780000
+b110 !
+b1111 #
+b1110 !
+0"
+b1110 #
+b1010 !
+06
+12
+03
+0G
+1O
+04
+0L
+0K
+0I
+0D
+0C
+0A
+0<
+0;
+09
+1N
+1F
+1>
+0.
+0/
+00
+0=
+0E
+0M
+0%
+0&
+0'
+#810000
+b1000 !
+b110 #
+b111 #
+b1100 !
+16
+02
+0?
+1G
+0J
+0B
+0:
+#840000
+b11 #
+b100 !
+1"
+0O
+08
+14
+1K
+1J
+1I
+1M
+0N
+10
+1%
+#870000
+b101 !
+b10 #
+b1 !
+b110 #
+b1001 !
+06
+18
+13
+0G
+1O
+1T
+1S
+1Q
+0K
+0I
+1<
+1;
+19
+0M
+1N
+1=
+1U
+00
+0V
+0>
+0%
+1.
+11
+1$
+1'
+#900000
+b100 #
+b1011 !
+b1100 #
+0"
+b1010 !
+b1101 #
+b1110 !
+b1001 #
+b110 !
+03
+1?
+1G
+0O
+16
+07
+08
+12
+04
+0Q
+0J
+09
+1V
+1>
+0U
+1M
+0=
+0.
+01
+0M
+0$
+0'
+#930000
+b1011 #
+b100 !
+b0 !
+b1000 !
+0?
+0G
+1O
+17
+0S
+0;
+#960000
+b1001 !
+b1011 !
+b1111 !
+13
+1?
+1G
+#990000
+1"
+b1010 #
+b1011 !
+14
+0G
+06
+1Q
+1A
+19
+1S
+1P
+1C
+1@
+1;
+15
+1=
+1E
+1U
+0V
+0F
+0>
+1.
+1/
+11
+1$
+1&
+1'
+#1000000

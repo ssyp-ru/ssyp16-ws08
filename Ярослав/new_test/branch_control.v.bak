@@ -1,0 +1,11 @@
+module branch_control(output ADD_OFFSET,input Z, input MODE_SET,input J);
+
+always @* begin
+	if(J)
+		if((MODE_SET & Z)|((~MODE_SET)&(~Z)))
+			ADD_OFFSET = 1;
+		
+			
+end
+
+endmodule

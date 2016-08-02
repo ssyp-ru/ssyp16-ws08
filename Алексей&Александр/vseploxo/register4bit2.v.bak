@@ -1,0 +1,7 @@
+module ended(output q1, input d, input c);
+
+always@(posedge clk)
+begin
+q<=d;
+end
+endmodule

@@ -1,0 +1,11 @@
+module chetkiyaue(output q1,output q2, output q3,input c);
+wire s1,s2,s3;
+
+s1=q1^(q3&q2);
+s2=q2^q3;
+s3=~q3;
+
+ended e1(.q1(q1),.q2(),.d(s1),.c(c));
+ended e2(.q1(q2),.q2(),.d(s2),.c(c));
+ended e3(.q1(q3),.q2(),.d(s3),.c(c));
+endmodule

@@ -1,0 +1,5 @@
+module first(output X, input A, input B, input C);
+
+assign X=A&(B|C);
+
+endmodule

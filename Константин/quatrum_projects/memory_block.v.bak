@@ -1,0 +1,5 @@
+wire t1, t2, t3, t4;
+	memory mem1(OUT[0], t1, IN[0], C);
+	memory mem2(OUT[1], t2, IN[1], C);
+	memory mem3(OUT[2], t3, IN[2], C);
+	memory mem4(OUT[3], t4, IN[3], C);

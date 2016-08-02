@@ -1,0 +1,12 @@
+module bilslise (output out , input wr , input date , input wordselect0 ,input wordselect1 ,input wordselect2 ,input wordselect3);
+
+wire l1,l2,l3,l4,s1,s2,s3,s4;
+
+ram r1 (.q1(l1),.q2(s1),.r(~(date&rw)),.s(date&rw),.c(worldselect0));
+ram r2 (.q1(l2),.q2(s2),.r(~(date&rw)),.s(date&rw),.c(worldselect1));
+ram r3 (.q1(l3),.q2(s3),.r(~(date&rw)),.s(date&rw),.c(worldselect2));
+ram r4 (.q1(l4),.q2(s4),.r(~(date&rw)),.s(date&rw),.c(worldselect3));
+
+onebitmemory m2(.q1(out),.q2(),.r(s1|s2|s3|s4),.s(l1 | l2|l3|l4));
+endmodule
+

@@ -1,0 +1,31 @@
+module datapath(input clk,
+					 input load_en,
+					 input [3:0] A_sel,
+					 input [3:0] B_sel,
+					 input [3:0] dest_sel,
+					 input [15:0] data_in,
+					 input data_sel,
+					 input [3:0] op_sel,
+					 input const_sel,
+					 input [15:0] const_in,
+					 output [15:0] A_out,
+					 output [15:0] B_out,
+					 output V,
+					 output C,
+					 output N,
+					 output Z,
+					 output[15:0] Br		);
+
+wire [15:0] D;
+
+RegFile_16 rf4(dest_sel,D,clk,load_en,A_sel,B_sel,A_out,B_out);
+
+wire [15:0] F;
+
+multiplexor2_16 m241(const_sel,B_out,const_in,Br);
+
+ALUSHIFTER_16 fu(op_sel,A_out,Br,F,V,C,N,Z);
+
+multiplexor2_16 m242(data_sel,F,data_in,D);
+
+endmodule

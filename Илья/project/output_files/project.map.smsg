@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at register_file.v(1): object "A" differs only in case from object "a" in the same scope File: C:/quartus_projects/first/register_file.v Line: 1
+Info (10281): Verilog HDL Declaration information at register_file.v(1): object "B" differs only in case from object "b" in the same scope File: C:/quartus_projects/first/register_file.v Line: 1
+Info (10281): Verilog HDL Declaration information at calc.v(13): object "TR" differs only in case from object "tr" in the same scope File: C:/quartus_projects/first/calc.v Line: 13

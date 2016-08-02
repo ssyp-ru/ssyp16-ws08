@@ -1,0 +1,19 @@
+module shifter(output [3:0]OUT,input[3:0] IN, input [1:0] SEL);
+//
+	wire [3:0]SHL;
+	wire [3:0]SHR;
+	wire [3:0]ROL;
+	wire [3:0]ROR;
+	
+	SHL = {IN[2],IN[1],IN[0],1'b0};
+	SHR = {1'b0,IN[3],IN[2],IN[1]};
+	ROL = {IN[2],IN[1],IN[0],IN[3]};
+	ROR = {IN[0],IN[3],IN[2],IN[1]};
+//
+
+//MINI-MULTIPLEXOR
+	multiplexor m0(.OUT(OUT),.IN0(SHL),.IN1(SHR),.IN2(ROR),.IN3(ROL),.SEL(SEL));
+//
+
+endmodule
+

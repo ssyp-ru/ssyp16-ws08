@@ -1,0 +1,2 @@
+module from16to8 (input [15:0] A,output [7:0] B1,output [7:0] B2);
+endmodule

@@ -1,0 +1,6 @@
+module decoder2(input [1:0] I,output reg [3:0] SH);
+always @(I) begin
+		SH=0;
+		SH[I]=1;
+end
+endmodule

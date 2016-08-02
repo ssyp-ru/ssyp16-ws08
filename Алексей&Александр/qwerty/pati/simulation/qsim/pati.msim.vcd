@@ -1,0 +1,115 @@
+$comment
+	File created using the following command:
+		vcd file pati.msim.vcd -direction
+$end
+$date
+	Tue Jul 19 22:13:08 2016
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module chetkiyaue_vlg_vec_tst $end
+$var reg 1 ! c $end
+$var wire 1 " q1 $end
+$var wire 1 # q2 $end
+$var wire 1 $ q3 $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + q1~output_o $end
+$var wire 1 , q2~output_o $end
+$var wire 1 - q3~output_o $end
+$var wire 1 . c~input_o $end
+$var wire 1 / e3|dt|q1~1_combout $end
+$var wire 1 0 e3|td|q1~1_combout $end
+$var wire 1 1 e2|dt|q1~1_combout $end
+$var wire 1 2 e2|td|q1~1_combout $end
+$var wire 1 3 e1|dt|q1~1_combout $end
+$var wire 1 4 e1|td|q1~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+x"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+x,
+x-
+1.
+x/
+x0
+x1
+x2
+x3
+x4
+$end
+#10000
+0!
+0.
+#20000
+1!
+1.
+#70000
+0!
+0.
+#130000
+1!
+1.
+#160000
+0!
+0.
+#240000
+1!
+1.
+#280000
+0!
+0.
+#320000
+1!
+1.
+#360000
+0!
+0.
+#390000
+1!
+1.
+#440000
+0!
+0.
+#470000
+1!
+1.
+#510000
+0!
+0.
+#550000
+1!
+1.
+#590000
+0!
+0.
+#620000
+1!
+1.
+#670000
+0!
+0.
+#1000000

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/qwerty/pati/simulation/qsim
+vchetkiyaue
+Z1 !s110 1468944788
+!i10b 1
+!s100 ^@IVz5OE6Y8U<JJSFm0QA2
+I:L=b@hddi<EKlg@Yn>LSC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1468944786
+Z3 8pati.vo
+Z4 Fpati.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1468944787.000000
+Z7 !s107 pati.vo|
+Z8 !s90 -work|work|pati.vo|
+!i113 1
+Z9 o-work work
+vchetkiyaue_vlg_vec_tst
+R1
+!i10b 1
+!s100 7L:<nblMGz9b1oMKf^5gC2
+I@FZ@a[oW5ia^?h8AonWi]0
+R2
+R0
+w1468944783
+Z10 8Waveform.vwf.vt
+Z11 FWaveform.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+!s108 1468944788.000000
+!s107 Waveform.vwf.vt|
+Z13 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+vended
+Z14 !s110 1468944537
+!i10b 1
+!s100 JX>hLd06S>3PL0c<jcX8X0
+IBURejCC38Q2REzU2fgAOi0
+R2
+R0
+w1468944529
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1468944537.000000
+R7
+R8
+!i113 1
+R9
+vended_vlg_vec_tst
+R14
+!i10b 1
+!s100 N3hT1k;E=3ES@>3VCb2Db3
+I?ID`j39fe?=d;N9j4=XS_2
+R2
+R0
+w1468944526
+R10
+R11
+R12
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform.vwf.vt|
+R13
+!i113 1
+R9

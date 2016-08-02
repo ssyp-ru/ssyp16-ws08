@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/quartus_projects/qwerty/de0_nano_soc_baseline.v
+source_file = 1, C:/quartus_projects/qwerty/qwerty.v
+source_file = 1, C:/quartus_projects/qwerty/db/qwerty.cbx.xml
+design_name = qwerty
+instance = comp, \x~output\, x~output, qwerty, 1
+instance = comp, \c~input\, c~input, qwerty, 1
+instance = comp, \a~input\, a~input, qwerty, 1
+instance = comp, \b~input\, b~input, qwerty, 1
+instance = comp, \x~0\, x~0, qwerty, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, qwerty, 1

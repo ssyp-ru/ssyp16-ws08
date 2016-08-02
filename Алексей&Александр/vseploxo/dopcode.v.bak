@@ -1,0 +1,12 @@
+module dopcode(output [0:3]z, input [0:3]x);
+ 
+wire v0,v1,v2,v3;
+
+always
+v0=~x[0];
+v1=~x[1];
+v2=~x[2];
+v3=~x[3];
+
+calculator dcp (.g(z),.d(x),.f[0](1),.f[1](0),.f[2](0),.f[3](0));
+endmodule 

@@ -1,0 +1,5 @@
+module lu(output [3:0]send, input [3:0]a, input [3:0]b, input [1:0]op_sel);
+
+multiplex(.send(send),.sel(op_sel),.s0(a&b),.s1(a|b),.s2(a^b),.s3(~a));
+
+endmodule

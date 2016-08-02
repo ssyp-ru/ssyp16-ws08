@@ -1,0 +1,7 @@
+module onebitmemory(output reg  q1, output reg q2, input r, input s);
+always@(r,s)
+begin
+q1=(~(r|q1));
+q2=(~(s|q2));
+end
+endmodule

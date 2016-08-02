@@ -1,0 +1,11 @@
+|branch_control
+add_offset << add_offset.DB_MAX_OUTPUT_PORT_TYPE
+z => add_offset.IN1
+z => add_offset.IN1
+sel[0] => add_offset.IN0
+sel[0] => add_offset.IN0
+sel[1] => add_offset.IN1
+sel[1] => add_offset.IN1
+j => add_offset.IN1
+
+

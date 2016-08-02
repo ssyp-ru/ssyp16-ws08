@@ -1,0 +1,8 @@
+module shifter(output [3:0]f, input [3:0]b, input [1:0]op_sel);
+
+multiplex1 m0(.send(f[0]), .sel(op_sel), .s0(1'b0), .s1(b[1]), .s2(b[3]), .s3(b[1]));
+multiplex0 m1(.send(f[3]), .sel(op_sel), .s0(b[2]), .s1(1'b0), .s2(b[2]), .s3(b[0]));
+multiplex3 m3(.send(f[2:1]), .sel(op_sel[0]), .s1(b[1:0]), .s2(b[3:2]));
+
+endmodule
+

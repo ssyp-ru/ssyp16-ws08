@@ -1,0 +1,8 @@
+module program_counter(output reg [7:0]MEMORY_ADDRESS, input CLK, input OFFSET);
+MEMORY_ADDRESS = 0;
+always@(posedge CLK) begin
+	MEMORY_ADDRESS = MEMORY_ADDRESS + OFFSET + 1;
+end
+
+
+endmodule

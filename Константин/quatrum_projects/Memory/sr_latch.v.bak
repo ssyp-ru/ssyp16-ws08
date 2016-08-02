@@ -1,0 +1,8 @@
+module SR_LATCH(output Q, output _Q, input S, input R);
+	wire w1, w2;
+	
+	nor(w1, S, w2);
+	nor(w2, R, w1);
+	nor(Q, w1, w2);
+	nor(_Q, w2, w1);
+endmodule

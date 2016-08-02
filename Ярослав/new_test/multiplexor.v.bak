@@ -1,0 +1,14 @@
+module multiplexor(output reg[3:0]OUT, input[3:0]IN0,
+													input[3:0]IN1,
+													input[3:0]IN2,
+													input[3:0]IN3,
+													input[1:0]SEL);
+
+always @(SEL) 
+	case (SEL)
+		0: OUT <= IN0;
+		1: OUT <= IN1;
+		2: OUT <= IN2;
+		3: OUT <= IN3;
+	endcase
+endmodule

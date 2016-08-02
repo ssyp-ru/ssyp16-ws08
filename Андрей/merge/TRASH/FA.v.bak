@@ -1,0 +1,6 @@
+module FA (input a, input b, input ci, output c, output s);
+c = (a | b)&(b | ci)&(a | ci);
+s = ((a & b & c) | ((~a & ~b)|(~a & ~ci)|(~ci & ~b)))&~(~a & ~b & ~c); 
+
+
+endmodule

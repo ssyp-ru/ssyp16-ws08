@@ -1,0 +1,25 @@
+module A16(input AC,input [15:0] SH1,input [15:0] SH2,output [15:0] SHO,output V,output C,output N);
+wire O1,O2,O3,O4,O5,O6,O7,O8,O9,O10,O11,O12,O13,O14,O15,O16;
+ha HA1(SH1[0],SH2[0],O1,SHO[0]);
+fa FA1(SH1[1],SH2[1],O1,O2,SHO[1]);
+fa FA2(SH1[2],SH2[2],O2,O3,SHO[2]);
+fa FA3(SH1[3],SH2[3],O3,O4,SHO[3]);
+fa FA4(SH1[4],SH2[4],O4,O5,SHO[4]);
+fa FA5(SH1[5],SH2[5],O5,O6,SHO[5]);
+fa FA6(SH1[6],SH2[6],O6,O7,SHO[6]);
+fa FA7(SH1[7],SH2[7],O7,O8,SHO[7]);
+fa FA8(SH1[8],SH2[8],O8,O9,SHO[8]);
+fa FA9(SH1[9],SH2[9],O9,O10,SHO[9]);
+fa FA10(SH1[10],SH2[10],O10,O11,SHO[10]);
+fa FA11(SH1[11],SH2[11],O11,O12,SHO[11]);
+fa FA12(SH1[12],SH2[12],O12,O13,SHO[12]);
+fa FA13(SH1[13],SH2[13],O13,O14,SHO[13]);
+fa FA14(SH1[14],SH2[14],O14,O15,SHO[14]);
+fa FA15(SH1[15],SH2[15],O15,O16,SHO[15]);
+
+
+assign V=O16 ^ O15;
+assign C=O16;
+assign N=SHO[15] ^ V;
+
+endmodule

@@ -1,0 +1,45 @@
+module datapath(output [3:0]A_OUT,
+					 output [3:0]B_OUT,
+					 input [1:0]A_SEL,
+					 input [1:0]B_SEL,
+					 input [3:0]CONST_IN,
+					 input [3:0]DATA_IN,
+					 input [1:0]DEST_SEL,
+					 input [3:0]OP_SEL,
+					 input LOAD_EN,
+					 input CONST_SEL,
+					 input DATA_SEL,
+					 input CLK);
+	
+	wire [3:0]reg_out_A;
+	wire [3:0]reg_out_B;
+	wire [3:0]func_in_const;
+	wire [3:0]func_out;
+	wire [3:0]reg_in;
+	
+	multiplexor m0(func_in_const,
+						reg_out_B,
+						CONST_IN,
+						reg_out_B,
+						CONST_IN,
+						CONST_SEL);
+	register_file reg_file(reg_out_A,
+								  reg_out_B,
+								  reg_in,
+								  DEST_SEL,
+								  A_SEL,
+								  B_SEL,
+								  LOAD_EN,
+								  CLK);
+	functional_unit func_unit(func_out,
+									  reg_out_A,
+									  func_in_const,
+									  OP_SEL);
+	multiplexor m1(reg_in,
+						func_out,
+						DATE_IN,
+						func_out,
+						DATE_IN,
+						DATA_SEL);
+					 
+endmodule

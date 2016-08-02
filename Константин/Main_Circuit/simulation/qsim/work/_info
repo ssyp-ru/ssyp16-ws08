@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Main_Circuit/simulation/qsim
+vMain_Circuit
+Z1 !s110 1469615317
+!i10b 1
+!s100 7Ei2X;]D1XHAC4db4U3[=3
+IZ9zYnnFi3LiYK[RhFFE:51
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469615315
+8Main_Circuit.vo
+FMain_Circuit.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1469615316.000000
+!s107 Main_Circuit.vo|
+!s90 -work|work|Main_Circuit.vo|
+!i113 1
+Z4 o-work work
+n@main_@circuit
+vMain_Circuit_vlg_vec_tst
+R1
+!i10b 1
+!s100 UTVB5kdQ3S<fiBiOFXK?V1
+Ie93bcG@ORcadcJ>QJYGIh1
+R2
+R0
+w1469615311
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1469615317.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+n@main_@circuit_vlg_vec_tst

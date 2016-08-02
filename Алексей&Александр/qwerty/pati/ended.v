@@ -1,0 +1,5 @@
+module ended(output q1,output q2, input d, input c);
+wire v1, v2;
+part1 dt(.q1(v1),.q2(v2),.d(d),.c(~c));
+part2 td(.q1(q1),.q2(q2),.s(v1),.c(c),.r(v2));
+endmodule
